@@ -31,8 +31,11 @@ public class ColoredPrinter {
         if (colorAndUnicodeMap.get(Color) != null)
             System.out.println(colorAndUnicodeMap.get(Color) + Text + colorAndUnicodeMap.get("RESET"));
         else
-            System.out.println(Text);;
+            System.out.println(Text);
     }
 
-
+    public static void main(String[] args) {
+        ColoredPrinter coloredPrinter = new ColoredPrinter();
+        coloredPrinter.coloredSysOut("Hello","CYAN");
+    }
 }
