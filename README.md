@@ -31,27 +31,33 @@ Prints the data using System.out.println adding ASCII color codes
 
 _JAR XML:_
 
-`<dependency>
-  <groupId>com.yagzanmanju</groupId>
-  <artifactId>ColoredPrinter</artifactId>
-  <version>1.0</version>
-</dependency>`
+```
+<dependency>
+    <groupId>com.yagzanmanju</groupId>
+    <artifactId>ColoredPrinter</artifactId>
+    <version>1.0</version>
+</dependency>
+```
 
 _Source Jar XML:_
 
-`<dependency>
+```
+<dependency>
   <groupId>com.yagzanmanju</groupId>
   <artifactId>ColoredPrinter</artifactId>
   <version>1.0</version>
   <classifier>sources</classifier>
-</dependency>`
+</dependency>
+```
 
 _Javadoc Jar XML:_
 
-`<dependency>
+```
+<dependency>
   <groupId>com.yagzanmanju</groupId>
   <artifactId>ColoredPrinter</artifactId>
   <version>1.0</version>
   <classifier>javadoc</classifier>
-</dependency>`
+</dependency>
+```
 
